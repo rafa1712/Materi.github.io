@@ -1,0 +1,31 @@
+code,country,rank,last,first,sex,p1,p2,p3,p4,p5,total,award
+BRA,Brazil,1,Angelo,Rodrigo Sanches,M,7,7,7,7,0,28,Gold
+BRA,Brazil,2,Camelo Sá,João Lucas,M,7,7,0,7,5,26,Silver
+BRA,Brazil,3,Mendes Silva,Maria Clara,F,7,5,5,7,0,24,Silver
+BRA,Brazil,4,Braga Costa,André Macieira,M,7,0,7,7,0,21,Bronze
+BRA,Brazil,5,Fiuza do Nascimento,Henrique Gasparini,M,7,7,4,0,0,18,Bronze
+BRA,Brazil,6,Miyazaki,Rafael Kazuhiro,M,7,7,4,0,0,18,Bronze
+BRA,Brazil,7,de Alencar Severo,Franco Matheus,M,7,7,0,4,0,18,Bronze
+BRA,Brazil,8,Nishida Kawai,Daniel Eiti,M,7,7,0,3,0,17,Hon. Men.
+BRA,Brazil,9,de Oliveira Pacahowski,Alessandro A. P.,M,2,7,0,7,0,16,Hon. Men.
+BRA,Brazil,10,Zelazny,Michel Rozenberg,M,7,7,2,0,0,16,Hon. Men.
+AUS,Australia,1,Xu,Yanning ,,7,7,3,7,0,24,Gold
+AUS,Australia,2,Fu,Nancy,,7,7,0,7,0,21,Silver
+AUS,Australia,3,Chua,Alexander,,7,0,3,7,0,17,Bronze
+AUS,Australia,4,Kwong,Jason,,7,2,7,0,0,16,Bronze
+AUS,Australia,5,Khou,Victor,,7,7,2,0,0,16,Bronze
+AUS,Australia,6,Chapman,Kaimyn,,2,6,7,0,0,15,Bronze
+AUS,Australia,7,Gunning,Alexander,,0,7,7,0,0,14,Bronze
+AUS,Australia,8,Shu,Mel,,2,7,2,0,0,11,Hon. Men.
+AUS,Australia,9,Ragavan,Seyoon,,7,0,0,3,0,10,Hon. Men.
+AUS,Australia,10,Calisa,Vaishnavi,,7,0,3,0,0,10,Hon. Men.
+PHL,Philippines,1,Morco,Henry Jefferson,,7,7,2,7,0,23,Silver
+PHL,Philippines,2,Co,Kenneth,,7,7,2,0,0,16,Bronze
+PHL,Philippines,3,Sy,Adrian Reginald,,7,0,2,0,0,9,Hon. Men.
+PHL,Philippines,4,Uy,Mikaela Angelina,,7,0,2,0,0,9,Hon. Men.
+PHL,Philippines,5,Dee,Camille Tyrene,,7,0,2,0,0,9,Hon. Men.
+PHL,Philippines,6,Chuatak,John Thomas,,7,0,2,0,0,9,Hon. Men.
+PHL,Philippines,7,Karaan,Marco Vincenzo,,1,6,2,0,0,9,
+PHL,Philippines,8,Guadalupe,Russelle,,7,0,0,0,0,7,
+PHL,Philippines,9,Brodeth,Michael,,1,1,2,0,0,4,
+PHL,Philippines,10,Chua,Jervis,,0,0,2,0,0,2,

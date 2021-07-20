@@ -1,0 +1,19 @@
+{% extends 'body.html' %}
+{% block content %}
+    <div class="col text-center main-body mt-3 pb-4"> 
+      <h3> Results for {{ country }}  </h3>
+      
+      <hr>
+
+      <p class="small"> Click on a year to see detailed results </p>
+
+      {{table|safe}}
+      {{table_short|safe}}
+
+      <hr>
+      
+      <p class="small"> We have more information in PDF files <a href="/results" class="">here</a>. To help converting it to a data-friendly format, visit the <a href="https://github.com/leomtz/apmowebsite"> GitHub repository</a>.</p>
+
+
+    </div>
+{% endblock %}
