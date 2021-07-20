@@ -1,6 +1,6 @@
 # Website Feng Math Class
 
-![APMO logo](/static/apmologo.gif "Logo Title Text 1")
+/static/KH (1).gif
 
 The Asian Pacific Mathematics Olympiad (APMO) is a mathematical competition for countries in the Pacific-Rim Region.
       
