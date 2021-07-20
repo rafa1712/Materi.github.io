@@ -1,4 +1,4 @@
-# Website for the Asian Pacific Mathematics Olympiad
+# Website Feng Math Class
 
 ![APMO logo](/static/apmologo.gif "Logo Title Text 1")
 
