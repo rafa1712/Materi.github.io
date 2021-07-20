@@ -1,0 +1,107 @@
+{% extends 'body.html' %}
+{% block content %}
+    <div class="col text-center main-body mt-3 pb-4"> 
+      <h3> Report for APMO {{year}}  </h3>
+
+      {% if year == 2021 %}
+      <div class="alert alert-success" role="alert">
+        The results for APMO 2021 are now official!
+        <!-- These are preliminary results! They will soon be considered official. -->
+      </div>
+      {% endif %}
+
+      <hr>
+
+      <h4> General information</h4>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-5 col-lg-6">
+          <div class="d-flex">
+            <ul class="list-group list-aims mx-auto justify-content-center">
+              <li class='list-group-item'> {{competition_info.num_countries}} participating countries </li>
+              <li class='list-group-item'> {{competition_info.num_contestants}} participating students </li>
+              <li class='list-group-item'> Mean score $\mu={{'%0.2f'| format(competition_info.mean|float)}}$</li>
+              <li class='list-group-item'> Standard deviation $\sigma={{'%0.2f'| format(competition_info.std|float)}}$</li>
+              <li class='list-group-item'> Gold cut-off ${{competition_info.gold}}$</li>
+              <li class='list-group-item'> Silver cut-off ${{competition_info.silver}}$</li>
+              <li class='list-group-item'> Bronze cut-off ${{competition_info.bronze}}$</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-7 col-lg-6">
+            {% if problem_stats %}
+            <img class="w-100" src="/static/data/histogram_{{year}}.png">
+            {% else %}
+            <p> </p>
+            {% endif %}
+        </div>
+      </div>
+
+      <hr>
+
+      <h4> Country ranking  </h4>
+
+      <hr>
+
+      <p class="small">Click on a country name to see detailed results</p>
+
+      {{table|safe}}
+      {{table_short|safe}}
+
+      <p class="d-inline d-lg-none"> * Con. - Number of contestants </p>
+
+      <hr>
+
+      <h4> Awards </h4>
+
+      <hr>
+
+      <details>
+        <summary> Show Gold Awards</summary> 
+        {% for j in competition_info.g_awd %} {{j}} <br> {% endfor %}
+      </details>
+
+      <details>
+        <summary> Show Silver Awards</summary>
+      {% for j in competition_info.s_awd %} {{j}} <br> {% endfor %}
+     </details>
+
+      <details>
+        <summary> Show Bronze Awards</summary> 
+      {% for j in competition_info.b_awd %} {{j}} <br> {% endfor %}
+      </details>
+
+      <details>
+        <summary> Show Honorable Mentions </summary> 
+      {% for j in competition_info.h_men %} {{j}}<br> {% endfor %}
+      </details>
+
+      <hr>
+
+      <h4> Statistics by problem </h4>
+
+      <hr>
+      
+      <div class="row">
+        {% for j in range(5) %}
+        <div class="col-md-6 mt-4">
+        <h4>Problem {{j+1}}</h4>
+          <div class="d-flex">
+            <ul class="list-group list-aims mx-auto justify-content-center">
+                <li class='list-group-item'> Mean score $\mu={{'%0.2f'| format(competition_info.p_means[j]|float)}}$</li>
+                <li class='list-group-item'> Standard deviation $\sigma={{'%0.2f'| format(competition_info.p_stds[j]|float)}}$</li>
+            </ul>
+          </div>
+          {% if problem_stats %}
+          <img class="w-100" src="/static/data/histogram_p{{j+1}}_{{year}}.png">
+          {% else %}
+          <p> </p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+{% endblock %}
