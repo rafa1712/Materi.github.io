@@ -1,5 +1,6 @@
 # Paket 1 Level Tengah
-1. Bilangan prima yang berada pada rentang '100!+2' sampai $100!+99$ dikatakan \texttt{amazing}, tentukanlah banyaknya bilangan \texttt{amazing}.
+1. Bilangan prima yang berada pada rentang <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+ sampai $100!+99$ dikatakan ``amazing``, tentukanlah banyaknya bilangan ``amazing``.
 2. Tentukan banyaknya solusi bulat positif dari $10(m+n)=mn$.
 3. Masing-masing umur Alpha dan Beta pada tahun ini diwakili oleh suatu bilangan prima dua digit yang berbeda. Hasil penjumlahan umur mereka berdua menghasilkan suatu bilangan dua digit dengan angka yang sama. Jika hasil perkalian umur Alpha dan Beta adalah suatu bilangan yang kurang dari 450. Jumlah umur mereka 3 tahun yang akan datang adalah ... tahun
 4. Alpha akan melakukan perjalanan dari toko $A$ ke toko $B$ sedangkan Beta akan melakukan perjalanan dari toko $A$ ke toko $C$. Jika toko $A, B, C$ berada pada kota dengan bentuk segi 7 beraturan yang berbeda seperti gambar dibawah ini.
